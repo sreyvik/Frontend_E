@@ -84,7 +84,7 @@ async function handleRegister() {
       email: form.email,
       password: form.password
     })
-    router.push('/login')
+    router.push('/products')
   } catch (err) {
     error.value = 'Registration failed. Email may already exist.'
   } finally {
